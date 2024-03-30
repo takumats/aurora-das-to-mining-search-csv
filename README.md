@@ -2,8 +2,15 @@
 
 A Python script to convert a Database Activity Streams (DAS) output to "MiningSearch" style CSV file.
 
+## setup
+```
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+```
+
 ## usage
-DAS output json file to "MiningSearch" style CSV file.
+Convert Aurora MySQL DAS output json file to "MiningSearch" style CSV file.
 ```
 python3 aumy_das_json_to_mscsv.py <AUMY_DAS_JSON> <OUTPUT_CSV_FILE_NAME> 
 ```
